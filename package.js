@@ -17,9 +17,3 @@ Package.onUse(function(api) {
 	api.export('classNames', 'client');
 });
 
-Package.onTest(function(api) {
-	api.use('ecmascript');
-	api.use('tinytest');
-	api.use('tuul:classnames');
-	api.addFiles('classnames-tests.js');
-});
